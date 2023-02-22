@@ -1,0 +1,26 @@
+{
+  "name": "sgup-jsutil-utils",
+  "version": "1.0.1",
+  "description": "js工具库",
+  "main": "dist/sgup-jsutil-utils.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "JavaScript",
+    "utils"
+  ],
+  "author": "daieh",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@rollup/plugin-json": "^6.0.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
